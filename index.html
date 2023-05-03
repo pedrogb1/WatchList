@@ -29,7 +29,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Movies
+                            Filmes
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Não Vistos</a></li>
@@ -37,13 +37,13 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">New</a></li>
+                            <li><a class="dropdown-item" href="#">Novo</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Series
+                            Séries
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Não Vistas</a></li>
@@ -52,63 +52,34 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">New</a></li>
+                            <li><a class="dropdown-item" href="#">Novo</a></li>
                         </ul>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="buscar..." aria-label="buscar">
-                    <button class="btn btn-outline-success" type="submit">buscar</button>
+                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Título" aria-label="título">
-            </div>
-            <div class="col">
-                <select class="form-select" aria-label="genero">
-                    <option selected>Gênero</option>
-                    <option value="1">Comédia</option>
-                    <option value="2">Ação</option>
-                    <option value="3">Terror</option>
-                    <option value="4">Romance</option>
-                    <option value="5">Assalto</option>
-                    <option value="6">Drama</option>
-                    <option value="7">Comédia Romântica</option>
-                    <option value="8">Crime</option>
-                    <option value="9">Ficção Científica</option>
-                    <option value="10">Aventura</option>
+    <br>
 
-                </select>
-            </div>
-            <div class="col">
-                <input type="number" class="form-control" placeholder="Nota" aria-label="nota">
-            </div>
-            <!-- <div class="col">
-                <select class="form-select" aria-label="categoria">
-                    <option selected>categoria</option>
-                    <option value="1">Estudos</option>
-                    <option value="2">Trabalho</option>
-                    <option value="3">Pessoal</option>
-                </select>
-            </div> -->
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Elenco" aria-label="elenco">
-            </div>
-            <div class="col">
-                <button type="button" class="btn btn-primary">salvar</button>
-            </div>
-        </div>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Cadastrar Tarefa
+  </button>
+
+    <div class="container">
+        
     </div>
 
+    <br>
     <div class="container">
-        <div class="row">
+        <div id="filmes" class="row">
             
-            <div class="col">
+            <!-- <div class="col">
                 <div class="card">
                     <div class="card-header">
                         O Lado Bom da Vida
@@ -116,9 +87,9 @@
                     <div class="card-body">
                         <p class="card-text">Depois de uma fase difícil de sua vida, Pat Solitano Jr. está disposto a seguir em frente e reconquistar sua ex-mulher. Através de amigos, ele conhece Tiffany, que lhe promete ajuda na tarefa da reconquista. Uma inesperada ligação começa a uni-los.</p>
                         <p>
-                            <span class="badge text-bg-warning">comédia</span>
-                            <span class="badge text-bg-warning">romance</span>
-                            <span class="badge text-bg-warning">drama</span>
+                            <span class="badge text-bg-warning">Comédia</span>
+                            <span class="badge text-bg-warning">Romance</span>
+                            <span class="badge text-bg-warning">Drama</span>
                         </p>
                         <a href="#" class="btn btn-success">
                             <i class="bi bi-check-lg"></i>
@@ -126,11 +97,11 @@
                         <a href="#" class="btn btn-danger">
                             <i class="bi bi-trash"></i>
                         </a>
-                    </div>
-                </div> <!-- card -->
-            </div> <!-- col -->
+                    </div> -->
+                <!--</div>  card -->
+            <!--</div>  col -->
 
-            <div class="col">
+            <!-- <div class="col">
                 <div class="card">
                     <div class="card-header">
                         No Limite do Amanhã
@@ -138,9 +109,9 @@
                     <div class="card-body">
                         <p class="card-text">Em uma guerra contra alienígenas, William Cage descobre que tem a estranha habilidade de voltar no tempo, ficando preso em um eterno ciclo. Ele treina para usar suas novas habilidades, derrotar os invasores e acabar com a guerra.</p>
                         <p>
-                            <span class="badge text-bg-warning">ação</span>
-                            <span class="badge text-bg-warning">ficção-científica</span>
-                            <span class="badge text-bg-warning">aventura</span>
+                            <span class="badge text-bg-warning">Ação</span>
+                            <span class="badge text-bg-warning">Ficção-Científica</span>
+                            <span class="badge text-bg-warning">Aventura</span>
                         </p>
                         <a href="#" class="btn btn-success">
                             <i class="bi bi-check-lg"></i>
@@ -148,11 +119,11 @@
                         <a href="#" class="btn btn-danger">
                             <i class="bi bi-trash"></i>
                         </a>
-                    </div>
-                </div> <!-- card -->
-            </div> <!-- col -->
+                    </div> -->
+               <!--  </div> card -->
+           <!--  </div> col -->
 
-            <div class="col">
+            <!-- <div class="col">
                 <div class="card">
                     <div class="card-header">
                         Truque de Mestre
@@ -160,9 +131,9 @@
                     <div class="card-body">
                         <p class="card-text">Um grupo de ilusionistas encanta o público com suas mágicas e também rouba bancos em outro continente, distribuindo a quantia para os próprios espectadores. O agente do FBI Dylan Hobbs está determinado a capturá-los e conta com a ajuda de Alma Vargas, uma detetive da Interpol, e também de Thaddeus Bradley, um veterano desmistificador de mágicos que insiste que os assaltos são realizados a partir de disfarces e jogos envolvendo vídeos.</p>
                         <p>
-                            <span class="badge text-bg-warning">assalto</span>
-                            <span class="badge text-bg-warning">ação</span>
-                            <span class="badge text-bg-warning">crime</span>
+                            <span class="badge text-bg-warning">Assalto</span>
+                            <span class="badge text-bg-warning">Ação</span>
+                            <span class="badge text-bg-warning">Crime</span>
                         </p>
                         <a href="#" class="btn btn-success">
                             <i class="bi bi-check-lg"></i>
@@ -170,18 +141,81 @@
                         <a href="#" class="btn btn-danger">
                             <i class="bi bi-trash"></i>
                         </a>
-                    </div>
-                </div> <!-- card -->
-            </div> <!-- col -->
+                    </div> -->
+                <!-- </div> card -->
+            <!-- </div> col -->
 
 
         </div> <!-- row -->
     </div> <!-- container -->
 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Cadastrar Novo</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="col">
+                <div class="row-12">
+                    <input id="titulo" type="text" class="form-control" placeholder="Título" aria-label="título">
+                </div>
+                <div class="row-12">
+                    <select id="genero" class="form-select" aria-label="genero">
+                        <option selected>Gênero</option>
+                        <option>Comédia</option>
+                        <option>Ação</option>
+                        <option>Terror</option>
+                        <option>Romance</option>
+                        <option>Assalto</option>
+                        <option>Drama</option>
+                        <option>Comédia Romântica</option>
+                        <option>Crime</option>
+                        <option>Ficção Científica</option>
+                        <option">Aventura</option>
+    
+                    </select>
+                </div>
+                <div class="row-6">
+                    <input id="nota" type="number" min="0" max="10" step="0.5" value="5" class="form-control" placeholder="Nota" aria-label="nota">
+                </div>
+                <!-- <div class="row">
+                    <select class="form-select" aria-label="categoria">
+                        <option selected>categoria</option>
+                        <option value="1">Estudos</option>
+                        <option value="2">Trabalho</option>
+                        <option value="3">Pessoal</option>
+                    </select>
+                </div> -->
+                <div class="row-6">
+                    <input id="sinopse" type="text" class="form-control" placeholder="Sinopse" aria-label="sinopse">
+                </div>
+                <div class="row-6">
+                    <input id="elenco" type="text" class="form-control" placeholder="Elenco" aria-label="elenco">
+                </div>
+                <!-- <div class="col">
+                    <button type="button"  class="btn btn-primary">Salvar</button>
+                </div> -->
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" id="salvar" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 
+    <script src="./crud.js"></script>
 </body>
 
 </html>
