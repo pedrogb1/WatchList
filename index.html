@@ -37,7 +37,7 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Novo</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Novo</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -164,20 +164,29 @@
                     <input id="titulo" type="text" class="form-control" placeholder="Título" aria-label="título">
                 </div>
                 <div class="row-12">
-                    <select id="genero" class="form-select" aria-label="genero">
-                        <option selected>Gênero</option>
-                        <option>Comédia</option>
-                        <option>Ação</option>
-                        <option>Terror</option>
-                        <option>Romance</option>
-                        <option>Assalto</option>
-                        <option>Drama</option>
-                        <option>Comédia Romântica</option>
-                        <option>Crime</option>
-                        <option>Ficção Científica</option>
-                        <option">Aventura</option>
-    
-                    </select>
+                    <div id="genero">
+                        <input type="checkbox" name="genero" value="Comédia">
+                        <label for="Comédia">Comédia</label><br>
+                        <input type="checkbox" name="genero" value="Ação">
+                        <label for="Ação">Ação</label><br>
+                        <input type="checkbox" name="genero" value="Terror">
+                        <label for="Terror">Terror</label><br>
+                        <input type="checkbox" name="genero" value="Romance">
+                        <label for="Romance">Romance</label><br>
+                        <input type="checkbox" name="genero" value="Assalto">
+                        <label for="Assalto">Assalto</label><br>
+                        <input type="checkbox" name="genero" value="Drama">
+                        <label for="Drama">Drama</label><br>
+                        <input type="checkbox" name="genero" value="Comédia Romântica">
+                        <label for="Comédia Romântica">Comédia Romântica</label><br>
+                        <input type="checkbox" name="genero" value="Crime">
+                        <label for="Crime">Crime</label><br>
+                        <input type="checkbox" name="genero" value="Ficção Científica">
+                        <label for="Ficção Científica">Ficção Científica</label><br>
+                        <input type="checkbox" name="genero" value="Aventura">
+                        <label for="Aventura">Aventura</label><br>
+                    </div>
+                    
                 </div>
                 <div class="row-6">
                     <input id="nota" type="number" min="0" max="10" step="0.5" value="5" class="form-control" placeholder="Nota" aria-label="nota">
